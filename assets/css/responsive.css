@@ -72,11 +72,11 @@
         font-size: 24px;
     }
     .modal-dialog{
-        width: auto;
+        width: auto !important; 
     }
     .vid{
-        width: auto;
-        height: auto;
+        width: auto !important;
+        height: auto !important;
     }
 
     /*::::::::::::::::::::::::::::::::::::
