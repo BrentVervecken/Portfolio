@@ -234,7 +234,7 @@ button:focus {
     width: 100%;
     height: 100%;
     background-color: #0ad7bd;
-    opacity: .8;
+    opacity: .7;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     z-index: 2;
 }
@@ -343,6 +343,9 @@ button:focus {
 .about-content h2 span {
     color: #0ad7bd;
     font-size: 100%;
+}
+.opleiding{
+    color: #0ad7bd;
 }
 
 .about-content h4 {
