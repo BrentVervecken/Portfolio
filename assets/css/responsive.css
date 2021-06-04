@@ -16,6 +16,18 @@
     button.navbar-toggler {
         color: #fff;
     }
+    .hero-aria:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+        width: 100% !important;
+        height: 100%;
+        background-color: #0ad7bd;
+        opacity: .7;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+        z-index: 2;
+    }
 
     .navbar-nav {
         background-color: #333;
@@ -118,10 +130,10 @@
     }
 
     .hero-aria::after {
-        width: 80%;
+        width: 100%;
     }
     .hero-content {
-        max-width: 70%;
+        max-width: 100%;
     }
 
     /*::::::::::::::::::::::::::::::::::::
@@ -281,10 +293,10 @@
     }
 
     .hero-aria::after {
-        width: 70%;
+        width: 100%;
     }
     .hero-content {
-        max-width: 65%;
+        max-width: 100%;
     }
     /*::::::::::::::::::::::::::::::::::::
        Portfolio Section
