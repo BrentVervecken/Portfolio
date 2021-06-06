@@ -309,7 +309,7 @@ button:focus {
     border: 1px solid;
     text-align: center;
     line-height: 30px;
-    margin: 0 5px;
+    margin: 0 13px;
     -webkit-transition: .3s;
     transition: .3s;
 }
