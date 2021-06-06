@@ -340,6 +340,11 @@ button:focus {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 }
 
+a{
+    color: #029ea3;
+
+}
+
 .about-content h2 span {
     color: #0ad7bd;
     font-size: 100%;
@@ -351,7 +356,8 @@ button:focus {
 .about-content h4 {
     font-weight: 400;
     font-size: 22px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    padding-top: 5px;
 }
 
 .about-content p {
