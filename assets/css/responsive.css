@@ -91,6 +91,10 @@
         height: auto !important;
     }
 
+    .portimg{
+        display: none;
+    }
+
 
 
     /*::::::::::::::::::::::::::::::::::::
