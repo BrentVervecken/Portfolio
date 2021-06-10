@@ -130,6 +130,10 @@
         font-size: 30px;
     }
 
+    .mobile{
+        font-size: 12px;
+    }
+
     .hero-content h3 {
         font-size: 15px;
         margin: 15px 0;
