@@ -53,7 +53,7 @@
         element.typed({
             strings: ["Ontdek mijn afstudeerportfolio!", "Veel leesplezier! "],
             typeSpeed: 80,
-            loop: true,
+            loop: false,
             autoplay: true,
         });
     });
