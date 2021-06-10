@@ -19,7 +19,7 @@
 
     //Smoth Scroll
     $(function () {
-        $('.nav-link, .smoth-scroll').on('click', function (event) {
+        $('.nav-link, .smoth-scroll, .link1').on('click', function (event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - 0
@@ -51,8 +51,8 @@
 
     $(function () {
         element.typed({
-            strings: ["Ontdek mijn portfolio.", "Veel leesplezier! "],
-            typeSpeed: 100,
+            strings: ["Ontdek mijn afstudeerportfolio!", "Veel leesplezier! "],
+            typeSpeed: 80,
             loop: true,
             autoplay: true,
         });
